@@ -4,10 +4,10 @@ import { FiSend } from "react-icons/fi";
 
 export default function Footer() {
   return (
-    <footer className="w-full max-w-7xl mx-auto bg-[#263238] text-gray-300 py-8 px-6 md:px-16">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="w-full max-w-7xl mx-auto bg-[#263238] text-gray-300 py-8 px-6 md:px-16 flex items-center">
+  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 items-center">
         {/* Left Section */}
-        <div className="md:px-6">
+        <div className="md:px-6 flex flex-col items-center md:items-start">
           <div className="flex items-center mb-4">
             <img className="h-5 w-28" src={logo} alt="" />
           </div>
@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
 
         {/* Company */}
-        <div className="md:ml-32">
+  <div className="md:ml-32 flex flex-col items-center md:items-start text-center md:text-left">
           <h3 className="text-white font-semibold mb-4">Company</h3>
           <ul className="space-y-2 text-sm">
             <li><a href="#">About us</a></li>
@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
 
         {/* Support */}
-        <div>
+  <div className="flex flex-col items-center md:items-start text-center md:text-left">
           <h3 className="text-white font-semibold mb-4">Support</h3>
           <ul className="space-y-2 text-sm">
             <li><a href="#">Help center</a></li>
@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
 
         {/* Newsletter */}
-        <div>
+  <div className="flex flex-col items-center md:items-start text-center md:text-left">
           <h3 className="text-white font-semibold mb-4">Stay up to date</h3>
           <div className="relative">
             <input

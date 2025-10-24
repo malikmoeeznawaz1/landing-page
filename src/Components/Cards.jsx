@@ -9,7 +9,7 @@ const Cards = () => {
                 <div className="flex items-center justify-center mt-6 mb-6 mx-auto">
                     <div className='flex flex-col max-w-lg text-center'>
                         <p className='text-2xl font-bold text-[#4D4D4D]'>Caring is the new marketing</p>
-                        <p className='text-sm mt-2'>The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+                        <p className='text-sm mt-2 mb-4'>The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
                     </div>
                 </div>
                 <div className='md:flex-row flex flex-col items-center justify-center md:gap-8 gap-24 flex-wrap'>
