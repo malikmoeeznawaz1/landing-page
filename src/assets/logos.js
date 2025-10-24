@@ -5,6 +5,10 @@ import img4 from '../assets/4.png';
 import img5 from '../assets/5.png';
 import img6 from '../assets/6.png';
 
+import icon1 from '../assets/icon1.png';
+import icon2 from '../assets/icon2.png';
+import icon3 from '../assets/icon3.png';
+
 
 export const logos = [
     {
@@ -32,5 +36,11 @@ export const logos = [
         "src": img6
     }
 ];
+
+export const icons = {
+    icon1,
+    icon2,
+    icon3,
+};
 
 export default logos;
