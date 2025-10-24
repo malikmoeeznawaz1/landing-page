@@ -9,6 +9,10 @@ import icon1 from '../assets/icon1.png';
 import icon2 from '../assets/icon2.png';
 import icon3 from '../assets/icon3.png';
 
+import card1 from '../assets/card1.png';
+import card2 from '../assets/card2.png';
+import card3 from '../assets/card3.png';
+
 
 export const logos = [
     {
@@ -42,5 +46,11 @@ export const icons = {
     icon2,
     icon3,
 };
+
+export const cards = {
+    card1,
+    card2,
+    card3,
+}
 
 export default logos;

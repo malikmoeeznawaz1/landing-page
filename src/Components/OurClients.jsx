@@ -4,6 +4,7 @@ import { PiUsersThreeLight } from "react-icons/pi";
 import { PiBuildingOffice } from "react-icons/pi";
 import { PiHandshakeThin } from "react-icons/pi";
 import rafiki from '../assets/rafiki.png';
+import Cards from './Cards';
 
 const OurClients = () => {
   return (
@@ -73,6 +74,7 @@ const OurClients = () => {
           </div>
         </div>
       </div>
+      <Cards />
     </>
   )
 }
